@@ -1,0 +1,12 @@
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/tp_mobile
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/romain15/StudioProjects/TPmobile/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
