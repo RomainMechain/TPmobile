@@ -1,0 +1,4 @@
+#Fri Mar 22 14:36:29 CET 2024
+base.0=/home/romain15/StudioProjects/TPmobile/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
