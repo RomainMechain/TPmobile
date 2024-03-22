@@ -15,7 +15,7 @@ class _RegleState extends State<Regle> {
       home: Scaffold(
         appBar: AppBar(
           toolbarHeight: 100,
-          title: Padding(
+          title: const Padding(
             padding: EdgeInsets.only(top: 50), // Ajustez cette valeur pour changer la position du titre
             child: Text(
               "USO",
@@ -29,14 +29,14 @@ class _RegleState extends State<Regle> {
           centerTitle: true,
         ),
         body: SingleChildScrollView(
-          padding: EdgeInsets.all(20.0),
+          padding: const EdgeInsets.all(20.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
+                child: const Text(
                   "Règles du jeu USO",
                   style: TextStyle(
                     fontSize: 24,
@@ -45,11 +45,11 @@ class _RegleState extends State<Regle> {
                   textAlign: TextAlign.justify,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: const Text(
                   "USO est un jeu de rythme dans lequel les joueurs doivent cliquer sur des cercles, dans un temps imparti.",
                   style: TextStyle(
                     fontSize: 16,
@@ -57,11 +57,11 @@ class _RegleState extends State<Regle> {
                   textAlign: TextAlign.justify,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0,vertical: 30),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0,vertical: 30),
+                child: const Text(
                   "Voici quelques éléments clés des règles du jeu :",
                   style: TextStyle(
                     fontSize: 22,
@@ -70,11 +70,11 @@ class _RegleState extends State<Regle> {
                   textAlign: TextAlign.justify,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: const Text(
                   "- Cercles : Les cercles apparaissent à l'écran et les joueurs doivent cliquer dessus.",
                   style: TextStyle(
                     fontSize: 16,
@@ -82,11 +82,11 @@ class _RegleState extends State<Regle> {
                   textAlign: TextAlign.justify,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: const Text(
                   "- Timer : Le timer, le joueur doit avoir cliqué sur un certain nombre de cercles avant la fin du timer pour passer au niveau suivant.",
                   style: TextStyle(
                     fontSize: 16,
@@ -94,11 +94,11 @@ class _RegleState extends State<Regle> {
                   textAlign: TextAlign.justify,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: const Text(
                   "- Score : Le score, il augmente à chaque fois que vous cliquez sur un cercle et le nombre de points obtenus augmente lui aussi en fonction des niveaux.",
                   style: TextStyle(
                     fontSize: 16,
@@ -106,11 +106,11 @@ class _RegleState extends State<Regle> {
                   textAlign: TextAlign.justify,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: const Text(
                   "- Les niveaux : Les niveaux permettent d'augmenter la difficulté en diminuant le timer et en augmentant la vitesse d'apparition des cercles.",
                   style: TextStyle(
                     fontSize: 16,
@@ -118,11 +118,11 @@ class _RegleState extends State<Regle> {
                   textAlign: TextAlign.justify,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: const Text(
                   "C'est un jeu qui nécessite à la fois de la concentration et du rythme. Bonne chance !",
                   style: TextStyle(
                     fontSize: 16,
